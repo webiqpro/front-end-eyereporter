@@ -1,0 +1,19 @@
+:root {
+  --primary: #2563eb;
+  --bg: #f8fafc;
+  --text: #1e293b;
+}
+
+body { font-family: sans-serif; background-color: var(--bg); color: var(--text); margin: 0; }
+.app-container { max-width: 800px; margin: 0 auto; padding: 2rem; }
+
+header { text-align: center; margin-bottom: 3rem; }
+
+.form-card { background: white; padding: 1.5rem; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); margin-bottom: 3rem; }
+form input, form textarea { width: 100%; padding: 10px; margin: 8px 0; border: 1px solid #ddd; border-radius: 6px; box-sizing: border-box; }
+button { background: var(--primary); color: white; border: none; padding: 12px 20px; border-radius: 6px; cursor: pointer; width: 100%; font-weight: bold; }
+
+.report-grid { display: grid; gap: 1rem; }
+.report-card { background: white; padding: 1.2rem; border-radius: 8px; border-left: 5px solid var(--primary); box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
+.location-tag { font-size: 0.75rem; background: #dbeafe; color: #1e40af; padding: 4px 8px; border-radius: 4px; }
+.error-banner { background: #fee2e2; color: #991b1b; padding: 1rem; border-radius: 6px; margin-bottom: 1rem; }
