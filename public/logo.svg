@@ -1,0 +1,27 @@
+<svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+  <!-- Outer circle -->
+  <circle cx="60" cy="60" r="55" fill="none" stroke="#2563eb" stroke-width="3"/>
+  
+  <!-- Eye white (sclera) -->
+  <ellipse cx="60" cy="60" rx="35" ry="38" fill="white" stroke="#2563eb" stroke-width="2"/>
+  
+  <!-- Iris -->
+  <circle cx="60" cy="62" r="20" fill="#3b82f6" opacity="0.8"/>
+  
+  <!-- Pupil -->
+  <circle cx="60" cy="62" r="12" fill="#1e40af"/>
+  
+  <!-- Highlight/shine -->
+  <circle cx="66" cy="56" r="5" fill="white" opacity="0.9"/>
+  
+  <!-- Additional shine -->
+  <circle cx="64" cy="58" r="2" fill="white" opacity="0.7"/>
+  
+  <!-- Report/document icon inside -->
+  <g transform="translate(85, 35)">
+    <rect x="0" y="0" width="20" height="24" rx="2" fill="none" stroke="#2563eb" stroke-width="1.5"/>
+    <line x1="2" y1="6" x2="18" y2="6" stroke="#2563eb" stroke-width="1"/>
+    <line x1="2" y1="10" x2="18" y2="10" stroke="#2563eb" stroke-width="1"/>
+    <line x1="2" y1="14" x2="14" y2="14" stroke="#2563eb" stroke-width="1"/>
+  </g>
+</svg>

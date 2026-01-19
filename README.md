@@ -1,93 +1,70 @@
-# Eye Reporter – Frontend (React)
+# Getting Started with Create React App
 
-## 1. Project Overview
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-The **Eye Reporter Frontend** is a web application that allows users to:
+## Available Scripts
 
-- Submit reports about issues in their locality
-- View all previously submitted reports
+In the project directory, you can run:
 
-This frontend communicates with the backend through HTTP requests.
+### `npm start`
 
----
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-## 2. Frontend Responsibilities
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-The frontend is responsible for:
+### `npm test`
 
-- Displaying the user interface
-- Collecting user input
-- Sending data to the backend API
-- Displaying data received from the backend
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
----
+### `npm run build`
 
-## 3. Technology Stack
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-- **React** – UI library  
-- **JavaScript**  
-- **Axios or Fetch API** – HTTP communication  
-- **HTML & CSS**
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
----
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
+### `npm run eject`
 
----
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-## 5. Core Components Description
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-### Report Form
-- Collects report information from the user
-- Sends data to the backend
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-### Report List
-- Fetches reports from the backend
-- Displays reports in a readable format
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-### API Service
-- Handles all backend communication
-- Keeps API logic separate from UI logic
+## Learn More
 
----
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-## 6. Application Flow
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-1. User opens the application  
-2. User fills in the report form  
-3. Frontend sends data to backend API  
-4. Backend confirms successful submission  
-5. Frontend fetches updated reports  
-6. Reports are displayed on the screen  
+### Code Splitting
 
----
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-## 7. User Interface Expectations
+### Analyzing the Bundle Size
 
-The UI should:
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-- Be simple and clear
-- Have labeled input fields
-- Show feedback after submission
-- Display reports in a list or cards
+### Making a Progressive Web App
 
----
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-## 8. Error Handling
+### Advanced Configuration
 
-The frontend should:
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-- Prevent empty submissions
-- Display error messages when submission fails
-- Handle backend unavailability gracefully
+### Deployment
 
----
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-## 9. Learning Outcomes
+### `npm run build` fails to minify
 
-Students should understand:
-
-- Component-based architecture
-- State management basics
-- Handling forms in React
-- Communicating with APIs
-- Separation of UI and logic
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
