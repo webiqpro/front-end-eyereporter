@@ -2,6 +2,16 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+____________________________________________________________________________________________________
+# Week 2 updates for the project
+**1. add a field to upload a video**
+**2. add a dropdown where users can be able to select the severity level of the issue for instance Roads, Electricity, Crime, Water**
+**3. add a functionality where users can upvote or downvote a reported issue**
+**4. Polish the UI to look better**
+_______________________________________________________________________________________________________
+
+
+
 ## Available Scripts
 
 In the project directory, you can run:
